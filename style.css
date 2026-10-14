@@ -148,6 +148,26 @@ button{
     margin-top: .5rem;
     margin-bottom: 2rem;
 }
+
+
 img{
     max-width: 100%;
+    transition: all 300ms;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+
+@media (min-width: 744px){
+    ul{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1280px){
+    .container{
+        display: flex;
+    }
 }
